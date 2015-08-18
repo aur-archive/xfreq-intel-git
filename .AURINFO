@@ -1,0 +1,15 @@
+pkgbase = xfreq-intel-git
+	pkgdesc = Intel Core Monitoring Server
+	pkgver = 55.7fe7aa8
+	pkgrel = 1
+	url = http://code.google.com/p/xfreq/
+	install = readme.install
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	conflicts = xfreq-git
+	conflicts = xfreq
+	source = git+https://code.google.com/p/xfreq#branch=2.0
+
+pkgname = xfreq-intel-git
+
